@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_left-items {
+    display: flex;
+    flex-direction: row;
+    gap: 92px;
+    width: 452px;
+}
+
+.navbar_left-items_blue-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #41C2D5;
+    border-radius: 20px;
+}
+
+.navbar_left-items_language_help {
+    display: flex;
+    gap: 60px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.language_flag {
+    width: 25px;
+}
+
+.text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 28px;
+    color: #253341
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.navbar_right-items {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar_right-items_user {
+    width: 24px;
+    height: 28px;
+    gap: 4px;
+}
+
