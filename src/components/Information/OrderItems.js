@@ -1,6 +1,7 @@
 import "./OrderItems.css";
 import { AiFillCheckCircle } from 'react-icons/ai';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import { BsInfo } from 'react-icons/bs';
 
 
 const OrderItems = () => {
@@ -36,7 +37,22 @@ const OrderItems = () => {
                 </div>
                 <p className="item-text black">Apmokėjimas</p>
             </div>    
-    
+        </div>
+        <div className="more-information_container">
+            <div className="container-item">
+                <BsInfo className="information-sign"/>
+                <p className="information-text">
+                    Siuntą <span className="important-text">virš 30 kg būtinai pakuokite</span> į dvi mažesnes 
+                    pakuotes, nes kaina nuo pakuočių skaičiaus nesikeičia.
+                </p>
+            </div>
+            <div className="container-item higher">
+                <BsInfo className="information-sign"/>
+                <p className="information-text more-text">
+                    Siuntos dalinamos/renkamos trečiadienį darbo valandomis <br/>
+                    Vairuotojas su Jumis susisieks 1 valandą prieš atvykdamas.
+                </p>
+            </div>
         </div>
     </div>
   )

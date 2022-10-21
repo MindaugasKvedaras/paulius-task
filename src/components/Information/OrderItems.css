@@ -53,6 +53,57 @@
     display: none;
 }
 
+.more-information_container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.container-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 8px;
+    border: 1px solid rgba(65, 194, 213, 0.38);
+    border-radius: 4px;
+    width: 358px;
+    height: 76px;
+    background-color: rgba(65, 194, 213, 0.12);;
+}
+
+.information-sign {
+    color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    background-color: #41C2D5;
+    border-radius: 50%;
+}
+
+.information-text {
+    width: 302px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #253341;
+    margin: 0;
+}
+
+.higher {
+    height: 104px;
+}
+
+.important-text {
+    font-weight: 700;
+    color: #253341;
+}
+
+.more-text{
+    height: 100px;
+}
+
 @media screen and (max-width: 680px) {
     .order-information {
         margin-left: 0;
