@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 .navbar_left-items {
@@ -60,5 +61,15 @@
     width: 24px;
     height: 28px;
     gap: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar_left-items, .navbar_left-items_language_help{
+        gap: 12px;
+    }
+
+    .mobile_text {
+        display: none;
+    }
 }
 

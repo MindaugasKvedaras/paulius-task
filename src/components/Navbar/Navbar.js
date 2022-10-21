@@ -17,14 +17,14 @@ const Navbar = () => {
                 </div>
                 <div className="help">
                     <BsQuestionCircle className="help_question"/>
-                    <p className="text">Pagalba</p>
+                    <p className="text mobile_text">Pagalba</p>
                     <MdOutlineKeyboardArrowDown className="arrow"/>
                 </div>
             </div>
         </div>
         <div className="navbar_right-items">
             <HiOutlineUser className="navbar_right-items_user"/>
-            <p className="text">Prisijungti</p>
+            <p className="text mobile_text">Prisijungti</p>
         </div>
     </div>
   )
